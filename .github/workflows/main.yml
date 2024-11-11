@@ -21,7 +21,7 @@ jobs:
         run: echo "Executando o comando Docker push"
   cd: 
     runs-on: ubunutu-latest
-    needs: ci
+    needs: [ci]
     steps:
       - name: Autenticar na AWS
         run: echo "Executando o comando aws configure"
