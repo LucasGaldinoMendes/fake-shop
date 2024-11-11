@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 jobs: 
   ci: 
-    runs-on: ubunutu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Obter o código do projeto
         uses: actions/checkout@v4
